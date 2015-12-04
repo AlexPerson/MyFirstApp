@@ -14,6 +14,7 @@
 		11A2953D1C11FBA100B55642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A2953B1C11FBA100B55642 /* LaunchScreen.storyboard */; };
 		11A295481C11FBA200B55642 /* MyFirstAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A295471C11FBA200B55642 /* MyFirstAppTests.swift */; };
 		11A295531C11FBA200B55642 /* MyFirstAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A295521C11FBA200B55642 /* MyFirstAppUITests.swift */; };
+		11A295611C1225C700B55642 /* ToDoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11A295601C1225C700B55642 /* ToDoTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		11A2954E1C11FBA200B55642 /* MyFirstAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFirstAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A295521C11FBA200B55642 /* MyFirstAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstAppUITests.swift; sourceTree = "<group>"; };
 		11A295541C11FBA200B55642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11A295601C1225C700B55642 /* ToDoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDoTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				11A295321C11FBA100B55642 /* AppDelegate.swift */,
 				11A295341C11FBA100B55642 /* ViewController.swift */,
 				11A295361C11FBA100B55642 /* Main.storyboard */,
+				11A295601C1225C700B55642 /* ToDoTableViewCell.swift */,
 				11A295391C11FBA100B55642 /* Assets.xcassets */,
 				11A2953B1C11FBA100B55642 /* LaunchScreen.storyboard */,
 				11A2953E1C11FBA100B55642 /* Info.plist */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A295611C1225C700B55642 /* ToDoTableViewCell.swift in Sources */,
 				11A295351C11FBA100B55642 /* ViewController.swift in Sources */,
 				11A295331C11FBA100B55642 /* AppDelegate.swift in Sources */,
 			);
